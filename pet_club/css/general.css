@@ -1,0 +1,135 @@
+*, html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Amatic', sans-serif;
+}
+
+/************************************************************************************************************************/
+
+	.header{
+		width: 100%;
+		height: 10em;
+		background: #212121;
+		position: relative;
+		border: 1px solid;
+	}
+	.logo{
+		position: absolute;
+		background: url('../img/shop_logo.PNG')no-repeat;
+		background-size: cover;
+	    height: 5em;
+	    width: 13em;
+	    left: 3em;
+	    top: 15px;
+	}
+	.logo_bayer{
+		position: absolute;
+		background: url('../img/logo_bayer.PNG')no-repeat;
+		background-size: cover;
+	    height: 4em;
+	    width: 4em;
+	    right: 3em;
+	    top: 2em;
+	}
+	.head_tags{
+		position: absolute;
+		width: 100%;
+		height: 25%;
+		bottom: 0;
+		background: #343736;
+	}
+
+	.top_container{
+		height: 100%;
+	    width: 100%;
+	    position: relative;
+	}
+
+	.head_tags .tags{
+		width: 100%;
+	    height: 100%;
+	    margin: 0px 30px;
+	}
+
+	.head_tags .tags li{
+		list-style: none;
+	    width: auto;
+	    font-size: 10px;
+	    color: white;
+	    float: left;
+	    margin: 10px 10px;
+	}
+
+	.name_tag{
+		position: relative;
+	}
+
+	.name_tag:not(:last-child):before {
+	    content: '';
+	    top: 50%;
+	    right: -11px;
+	    border-right: 1px dotted #fff;
+	    height: 100%;
+	    transform: translateY(-50%);
+	    position: absolute;
+	}
+	.headoptions{
+	    position: absolute;
+	    width: 30%;
+	    height: 15%;
+	    right: 100px;
+	    bottom: 44px;
+	}
+	.headoptions .options_container{
+		position: relative;
+		width: 100%;
+		height: 100%;
+	}
+
+	.headoptions .options_container .options_list{
+		width: 100%;
+	    height: 100%;
+	}
+
+	.headoptions .options_container .options_list .op{
+	    list-style: none;
+	    width: auto;
+	    font-size: 10px;
+	    color: white;
+	    float: left;
+	    margin: 5px 10px;
+	    position: relative;
+	}
+
+	.op.separator:before {
+	    content: '';
+	    top: 50%;
+	    right: -11px;
+	    width: 1px;
+	    height: 50%;
+	    background: #fff;
+	    transform: translateY(-50%);
+	    position: absolute;
+	}
+
+	.social_margin{
+		margin: 5px 0px 5px 10px!important;
+	}
+
+	.headoptions .options_container .options_list .op a{
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.fa.fa-search{
+		color: #fff;
+		font-size: 10px;
+	}
+
+/************************************************************************************************************************/
+.general_container{
+	width: 100%;
+	height: 100%;
+	border: 1px solid;
+}
