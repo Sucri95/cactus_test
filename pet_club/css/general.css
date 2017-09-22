@@ -149,6 +149,7 @@
 }
 
 .separators{
+	height: 10em;
 	color: #41c1bf;
 	font-family: 'Amatic', sans-serif;
 }
@@ -156,7 +157,7 @@
 .separators h1{
 	font-size: 70px;
     text-align: center;
-    line-height: 90px;
+    line-height: 130px;
 }
 
 .tips-container{
@@ -247,15 +248,24 @@
 }
 
 .wanted-container{
-	border: 1px solid;
     width: 100%;
-    height: 30em;
+    height: 46em;
     padding: 3em;
 }
 .center-container{
     width: 100%;
     height: 100%;
-    border: 1px solid purple;
+	padding: 2em 0 0 6em;
+}
+.miniature{
+	width: 20em;
+    height: 17em;
+    float: left;
+    margin: 1em 1em;
+}
+.min-pic{
+	width: 100%;
+	height: 100%;
 }
 /************************************************************************************************************************/
 footer{
